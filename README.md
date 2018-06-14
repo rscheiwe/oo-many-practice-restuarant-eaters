@@ -9,7 +9,7 @@
 * Each Restaurant has a name and cuisine
 * Restaurant#reservations
 * Restaurant#eaters
-* Restaurant#new_eater (makes new reservation for eater)
+* Restaurant#take_reservation (makes new reservation for eater)
 * Restaurant.least_popular
 * Restaurant.find_by_cuisine
 
