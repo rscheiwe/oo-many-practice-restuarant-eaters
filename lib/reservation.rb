@@ -2,8 +2,17 @@ class Reservation
 
   attr_accessor :eater, :restaurant
 
-  def initialize(eater, restuarant)
+  @@all = []
+
+  def initialize(eater, restaurant)
     @eater = eater
-    @restuarant = restaurant
+    @restaurant = restaurant
+
+    @@all << self
   end
+
+  def self.all
+    @@all
+  end
+
 end

@@ -1,5 +1,6 @@
 require_relative 'spec_helper.rb'
 
+
 describe "eater" do
 
   describe "initialize" do
@@ -19,7 +20,7 @@ describe "eater" do
   describe "#restaurants" do
     it "returns a list of all of the restaurants an eater has reservations for" do
       expect(mark.restaurants).to eq([torchys, cicis, quiznos])
-      expect(naomi.restuarants).to eq([torchys])
+      expect(naomi.restaurants).to eq([torchys])
     end
   end
 

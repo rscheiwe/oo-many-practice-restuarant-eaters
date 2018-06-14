@@ -1,5 +1,6 @@
 require_relative 'spec_helper.rb'
 
+
 describe "Restuarant" do
 
   describe "#initialize" do
